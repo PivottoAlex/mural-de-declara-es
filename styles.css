@@ -1,0 +1,67 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6e6; /* Fundo rosa claro */
+    color: #333; /* Texto escuro */
+    padding: 20px;
+    text-align: center; /* Centraliza o texto */
+}
+
+h1 {
+    color: #d5006d; /* Cor de um rosa vibrante */
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #fff; /* Fundo branco */
+    padding: 20px;
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    display: inline-block; /* Alinhamento do formulário */
+    width: 90%; /* Largura do formulário */
+    max-width: 600px; /* Largura máxima do formulário */
+    margin: 0 auto; /* Centraliza o formulário */
+}
+
+textarea {
+    width: 100%; /* Largura total do textarea */
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 5px; /* Bordas arredondadas */
+    border: 1px solid #d5006d; /* Borda rosa */
+    padding: 10px; /* Espaçamento interno */
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #d5006d; /* Botão rosa vibrante */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer;
+    font-weight: bold; /* Texto em negrito */
+}
+
+button:hover {
+    background-color: #c70056; /* Cor um pouco mais escura no hover */
+}
+
+#declarationsList {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza as declarações */
+}
+
+#declarationsList div {
+    background-color: #ffebee; /* Fundo claro para as declarações */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 15px;
+    margin: 5px 0; /* Espaçamento entre as declarações */
+    width: 80%; /* Largura das declarações */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    cursor: pointer; /* Muda o cursor ao passar por cima */
+    font-style: italic; /* Estilo em itálico */
+}
